@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Cuando el checkbox no sea pulsado colocará heart -->
+    <item android:drawable="@drawable/heart"
+        android:state_checked="false"></item>
+
+    <!-- Cuando se pulse el Checkbox colocará heartfull -->
+    <item android:drawable="@drawable/heart_full"
+        android:state_checked="true"></item>
+
+    <!-- Estado por default colocará heart. -->
+    <item android:drawable="@drawable/heart"></item>
+
+</selector>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"> //No action bar para quitar la toolbar
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item> <!-- Color del botón en estado normal. -->
+        <item name="colorControlHighlight">@color/colorPrimary</item> <!-- Color al pulsar el botón -->
+        <item name="android:textColor">@color/colorBlanco</item> <!-- Color del texto del botón -->
+    </style>
+
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorBlanco</item>
+        <item name="android:textSize">@dimen/edittxt_textsize_login</item>
+        <item name="android:textColorPrimary">@color/colorBlanco</item> <!-- Color del texto al ser ingresado -->
+        <item name="colorAccent">@color/colorBlanco</item> <!-- Color de acentuación -->
+        <item name="colorControlNormal">@color/colorBlanco</item>
+        <item name="colorControlActivated">@color/colorBlanco</item>
+    </style>
+
+
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorNegro</item>
+        <item name="android:textSize">@dimen/edittxt_textsize_login</item>
+        <item name="android:textColorPrimary">@color/colorNegro</item> <!-- Color del texto al ser ingresado -->
+        <item name="colorAccent">@color/colorNegro</item> <!-- Color de acentuación -->
+        <item name="colorControlNormal">@color/colorNegro</item>
+        <item name="colorControlActivated">@color/colorNegro</item>
+    </style>
+
+
+
+</resources>
